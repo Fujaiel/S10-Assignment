@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-image: url('Images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    padding-top: 30px;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+
+li {
+    display: inline-block;
+    padding: 0 30px 0 0;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+}
+
+#home {
+    background-color: grey;
+    padding: 10px 15px 10px 15px;
+    color: cyan;
+}
+
+.header-text {
+    width: 700px;
+    height: 175px;
+    margin-top: 100px;
+}
+
+.header-text h2 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.btn {
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: lightseagreen;
+    color: white;
+    margin-top: 30px;
+}
+
+.cards {
+    height: 980px;
+    padding: 50px 0;
+}
+
+.cards h2 {
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+
+.card {
+    width: 400px;
+    height: 370px;
+    background-color: yellowgreen;
+    border-top: 6px solid darkcyan;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.card-text {
+    margin: 50px 0;
+}
+
+.card-text h3 {
+    font-size: 30px;
+    color: darkviolet;
+}
+
+.card-text p {
+    margin-top: 20px;
+    color: darkviolet;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+#card-2 {
+    height: 220px;
+    background-color: lightseagreen;
+}
+
+.card2 {
+    width: 400px;
+    height: 370px;
+    background-color: yellowgreen;
+}
+
+#card-text-2 {
+    margin-top: 120px;
+}
+
+#form {
+    height: 720px;
+    background-color: darkcyan;
+    padding: 80px 0;
+}
+
+.form-area {
+    width: 460px;
+    height: 580px;
+
+
+}
+
+.form-area h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    padding: 30px 50px;
+}
+
+input[type="text"] {
+    width: 340px;
+    height: 60px;
+    border: 4px solid darkcyan;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 340px;
+    height: 60px;
+    border: 4px solid darkcyan;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+input[type="button"] {
+    width: 340px;
+    height: 60px;
+    background-color: darkcyan;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+}
+
+
+#small-cards {
+    height: 480px;
+}
+
+.small-cards {
+    margin: 50px 0;
+}
+
+.small-cards h2 {
+    font-size: 50px;
+    color: darkgoldenrod;
+    margin-bottom: 50px;
+}
+
+.small-card-1 {
+    width: 350px;
+    height: 70px;
+    background-color: darkslateblue;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.small-card-1-header h4 {
+    width: 127px;
+    color: white;
+    margin: -30px 0 0 50px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#small-card-2-left {
+    border-left: 4px solid darkcyan;
+}
+
+#small-card-3-all {
+    border: 4px solid darkcyan;
+}
+
+#article {
+    height: 480px;
+    background-color: gold;
+}
+
+article {
+    padding: 60px 0 0 0;
+
+}
+
+article h2 {
+    font-size: 85px;
+    color: darkslateblue;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-size: 20px;
+    color: darkslateblue;
+    letter-spacing: 1px;
+}
+
+#btn1 {
+    background-color: darkslateblue;
+}
+
+#last {
+    height: 1450px;
+}
+.container2 {
+    width: 900px;
+    margin: auto;
+    padding: 50px 150px;
+}
+
+.container2 h2 {
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.big-card-1 {
+    width: 500px;
+    height: 600px;
+    background-color: darkgreen;
+    margin: 0 50px 20px 50px;
+    border: 6px solid goldenrod;
+    padding: 30px 40px;
+}
+
+.big-card-1 h2 {
+    width: 200px;
+    color: white;
+    font-size: 50px;
+}
+
+.big-card-1 p {
+    font-size: 25px;
+    color: white;
+    margin-top: 80px;
+    
+}
+
+.big-small {
+    width: 400px;
+    height: 90px;
+    background-color: darkslateblue;
+    margin-top: 30px;
+}
+
+.big-small-content {
+    padding: 20px 0 20px 60px;
+}
+
+.big-small-content h3 {
+    color: white;
+    margin: -40px 0 0 60px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+#big-card-2 {
+    border: none;
+    background-color: darkgoldenrod;
+    border-right: 6px solid gold;
+}
+
+footer {
+    margin: 20px 0;
+    width: 1200px;
+    height: 60px;
+    background-color: #28282B;
+    border-left: 6px solid #FF1493;
+}
+
+footer h2 {
+    padding: 20px 0 20px 20px;
+    color: white;
+}
